@@ -1,3 +1,6 @@
+#https://github.com/mhalushka/miRge3.0/issues
+
+
 miRge3.0 \
 -s /Users/sajadpro/20210602_210519_NB551051_0221_AHG7JJBGXJ.EVPL.fastqs/EVPL_0001_Lu_R_SE_158_SM_210519_NB551051_0221_AHG7JJBGXJ_1_ATCACG_R1.fastq.gz \
 -lib /Users/sajadpro/miRge3_Lib/ \
@@ -31,3 +34,15 @@ miRge3.0 \
 -pbwt /Users/sajadpro/bowtie-1.3.0-macos-x86_64/ \
 -db mirbase \
 -gff -nmir -trf -cpu 1 -o /Users/sajadpro/output_dir
+
+#iMac
+
+miRge3.0 \
+-s EVPL_0001.fastq.gz,EVPL_0002.fastq.gz \
+-lib human \
+-on human \
+-pbwt /Users/cladteam/bowtie-1.3.0-macos-x86_64/ \
+-db mirbase \
+-gff -nmir -trf -cpu 1 -o output
+
+
