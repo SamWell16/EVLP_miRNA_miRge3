@@ -35,6 +35,29 @@ miRge3.0 \
 -db mirbase \
 -gff -nmir -trf -cpu 1 -o /Users/sajadpro/output_dir
 
+#sajadpro final
+source activate mirge
+miRge3.0 --help
+
+miRge3.0 \
+-s /Users/sajadpro/miRNA_EVPL/EVPL_0001.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0002.fastq.gz, \
+-lib /Users/sajadpro/miRge3_Lib \
+-on human \
+-pbwt /Users/sajadpro/bowtie-1.3.0-macos-x86_64/ \
+-db mirbase \
+-a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC \
+-udd -gff -nmir -trf -cpu 1 -o /Users/sajadpro/output_dir
+
+
+miRge3.0 \
+-s /Users/sajadpro/miRNA_EVPL/EVPL_0001.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0002.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0003.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0004.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0005.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0006.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0007.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0008.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0009.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0010.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0011.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0012.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0013.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0014.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0015.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0016.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0017.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0018.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0019.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0020.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0021.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0022.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0023.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0024.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0025.fastq.gz,/Users/sajadpro/miRNA_EVPL/EVPL_0026.fastq.gz \
+-lib /Users/sajadpro/miRge3_Lib \
+-on human \
+-pbwt /Users/sajadpro/bowtie-1.3.0-macos-x86_64/ \
+-db mirbase \
+-a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC \
+-udd -gff -cpu 1 -o /Users/sajadpro/output_dir
+
 #iMac
 
 miRge3.0 \
