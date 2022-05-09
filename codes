@@ -61,11 +61,12 @@ miRge3.0 \
 #iMac
 
 miRge3.0 \
--s EVPL_0001.fastq.gz,EVPL_0002.fastq.gz \
--lib human \
+-s EVPL_0020.fastq.gz,EVPL_0021.fastq.gz \
+-lib miRge_lib \
 -on human \
 -pbwt /Users/cladteam/bowtie-1.3.0-macos-x86_64/ \
 -db mirbase \
--gff -nmir -trf -cpu 1 -o output
+-a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC \
+-gff -dex -mdt EVLP_miRNA_DESmetadata.csv -cpu 1 -o output
 
 
